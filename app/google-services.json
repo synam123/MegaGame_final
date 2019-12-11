@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "20439985298",
+    "firebase_url": "https://megagame-969a7.firebaseio.com",
+    "project_id": "megagame-969a7",
+    "storage_bucket": "megagame-969a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20439985298:android:0a43f53bd1033df0850a4b",
+        "android_client_info": {
+          "package_name": "com.poly.megagame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20439985298-itqa4747j4j125atgr3r9ckfd52pdkem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.poly.megagame",
+            "certificate_hash": "ec44dbd021d76f0091daa4e0f177a8c4a1346fd7"
+          }
+        },
+        {
+          "client_id": "20439985298-33boudr18664cbntdnh5infgukrrb1d0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFtzouol6xshotV7vDeiiZ_tFi78ARmRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20439985298-33boudr18664cbntdnh5infgukrrb1d0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

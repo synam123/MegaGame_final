@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#120061"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtGameName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="2"
+        android:text="MATH GAME"
+        android:textColor="#fff"
+        android:textSize="44sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/txtBestScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Điểm Cao Nhất"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/btnPlay"
+        android:text="Chơi Game"
+        android:background="@drawable/ic_custom_button_play"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:onClick="onClickPlayGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

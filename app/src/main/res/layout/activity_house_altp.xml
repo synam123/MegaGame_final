@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#03A9F4">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_logo_1024dp"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Ai Là Triệu Phú Mobile 2019"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#0015A7"
+            android:layout_gravity="center_vertical"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_custom_button_main"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Chơi ngay"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:onClick="onClickPlayNow"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#0015A7"
+            android:layout_gravity="center_vertical"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_custom_button_main"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Điểm cao"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#0015A7"
+            android:layout_gravity="center_vertical"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_custom_button_main"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Bảng Xếp Hạng"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#0015A7"
+            android:layout_gravity="center_vertical"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_custom_button_main"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Thêm câu hỏi"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:onClick="onClickAddRequestion"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#0015A7"
+            android:layout_gravity="center_vertical"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_custom_button_main"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Thoát Trò Chơi"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:onClick="onClickQuit"/>
+    </FrameLayout>
+</LinearLayout>

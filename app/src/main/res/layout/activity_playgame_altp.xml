@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#03A9F4"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:id="@+id/img50_50"
+                android:src="@drawable/ic_50_50"/>
+
+            <ImageView
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:id="@+id/imgCall"
+                android:src="@drawable/ic_call"/>
+            <ImageView
+                android:visibility="invisible"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:id="@+id/imgAdvisory"
+                android:src="@drawable/ic_advisory"/>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="25sp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_logo_1024dp"/>
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/txtTimeCountDown"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="30"
+                android:textStyle="bold"
+                android:textColor="#111"
+                android:textSize="20sp"
+                android:background="@drawable/ic_custom_text_countdown"/>
+        </FrameLayout>
+        <TextView
+            android:id="@+id/txtRequestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="20dp"
+            android:text="Chào mừng bạn đến với Chương trình\nAi Là Triệu Phú"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:background="@drawable/ic_custom_requestion"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recAnswer" />
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/layout_point_milestones_altp"
+        android:background="#61673AB7"/>
+</androidx.drawerlayout.widget.DrawerLayout>

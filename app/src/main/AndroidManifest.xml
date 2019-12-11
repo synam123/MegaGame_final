@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.poly.megagame">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".view.math.MathGamePlayActivity"></activity>
+        <activity android:name=".view.math.MathGameActivity" />
+        <activity android:name=".view.SignupActivity" />
+        <activity android:name=".view.aitp.PlayGameALTPActivity" />
+        <activity android:name=".view.aitp.HouseALTPActivity" />
+        <activity android:name=".view.aitp.IntroduceALTPActivity" />
+        <activity android:name=".view.aitp.AddRequestionALTPActivity" />
+        <activity android:name=".view.HouseActivity" />
+        <activity android:name=".view.puzzle.PuzzleGameActivity" />
+        <activity android:name=".ailatrieuphu.playgame" />
+        <activity android:name=".ailatrieuphu.Manghinhchinh" />
+        <activity android:name=".view.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
